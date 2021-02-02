@@ -1,0 +1,6 @@
+a=int(input("Enter First Name:"))
+b=int(input("Enter Second Number:"))
+print("sum:",a+b)
+print("div:",a/b)
+print("mul:",a*b)
+print("sub:",a-b)

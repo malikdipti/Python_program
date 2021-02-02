@@ -1,0 +1,10 @@
+day,tempreture,windspeed,event
+1/1/2017,30,3,rain
+1/1/2018,32,4,snow
+1/1/2019,NaN,5,NaN
+1/1/2017,30,3,rain
+1/1/2018,NaN,4,snow
+1/1/2019,33,NaN,sunny
+1/1/2017,30,3,rain
+1/1/2018,32,4,NaN
+1/1/2019,33,5,sunny

@@ -1,0 +1,18 @@
+whether_data={
+    'day':['1/1/2017','1/1/2018','1/1/2019','1/1/2014'],
+    'tempreture':['30','32','33','34'],
+    'windspeed':['3','4','5','6'],
+    'event':['rain','snow','sunny','snow']
+}
+stock_data={
+	"Ticker":['GOOGLE','WMLT','BIGB','ESPLANDE'],
+	"Price":[566,223,342,45],
+	"Pe":[36.23,356.23,254.01,21.12],
+	"Eps"[23,25,249,89]
+}
+
+with pd.ExcelWriter('stock_whether.xls') as writer:
+	whether_data.to_excel(writer,sheet_name='whether')
+	stock_data.to_excel(writer,sheet_name="stocks")
+	
+	#writer = pd.ExcelWriter('stocks_reports.xlsx',engine='xlsxwriter')

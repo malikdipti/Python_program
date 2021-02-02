@@ -1,0 +1,16 @@
+[{
+   "type":"item",
+   "labels":{
+      "en":{
+         "language":"en",
+         "value":"George Washington"
+      }
+   },
+   "descriptions":{
+      "en":{
+         "language":"en",
+         "value":"American politician, 1st president of the United States (in office from 1789 to 1797)"
+      }
+   },
+   "id":"Q23"
+}]
